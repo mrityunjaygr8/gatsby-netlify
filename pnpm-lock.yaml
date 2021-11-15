@@ -8,6 +8,7 @@ specifiers:
   gatsby-plugin-image: ^2.1.1
   gatsby-plugin-manifest: ^4.1.2
   gatsby-plugin-netlify-cms: ^6.1.0
+  gatsby-plugin-netlify-identity-widget: ^1.1.1
   gatsby-plugin-offline: ^5.1.2
   gatsby-plugin-react-helmet: ^5.1.0
   gatsby-plugin-sharp: ^4.1.2
@@ -36,6 +37,7 @@ dependencies:
   gatsby-plugin-image: 2.1.2_fd167efd04fbd387eb932d72b5d51615
   gatsby-plugin-manifest: 4.1.3_gatsby@4.1.4
   gatsby-plugin-netlify-cms: 6.1.0_ed430a0b2e9b056f06935cc7ff0b47d1
+  gatsby-plugin-netlify-identity-widget: 1.1.1
   gatsby-plugin-offline: 5.1.3_89e130655cf360bc7eb2ea71ff16f0b3
   gatsby-plugin-react-helmet: 5.1.0_gatsby@4.1.4+react-helmet@6.1.0
   gatsby-plugin-sharp: 4.1.3_gatsby@4.1.4
@@ -6378,6 +6380,13 @@ packages:
       netlify-identity-widget: 1.9.2
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
+    dev: false
+
+  /gatsby-plugin-netlify-identity-widget/1.1.1:
+    resolution: {integrity: sha512-6uO7UCBduIED7McFlQY3rdS9N5uBCsywVO6abx8RfpVCwEnAdApHPy106oEVmfgeshmVLtfpniWfw2ckif+SXQ==}
+    dependencies:
+      babel-runtime: 6.26.0
+      netlify-identity-widget: 1.9.2
     dev: false
 
   /gatsby-plugin-offline/5.1.3_89e130655cf360bc7eb2ea71ff16f0b3:
